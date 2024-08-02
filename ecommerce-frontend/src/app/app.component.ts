@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecommerce-frontend';
+  employees = 'employees'; //Se usa para el link de lista de empleados
+  createEmployee = 'create-employee'; //Se usa para el link de creacion de empleados
 }

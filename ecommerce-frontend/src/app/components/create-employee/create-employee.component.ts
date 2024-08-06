@@ -14,7 +14,7 @@ export class CreateEmployeeComponent implements OnInit {
   routeEmployeesList: string = "/employees";
 
   constructor(
-    private employeeService: EmployeeService, 
+    private employeeService: EmployeeService,
     private router: Router) { }
 
   ngOnInit(): void {
@@ -30,7 +30,7 @@ export class CreateEmployeeComponent implements OnInit {
     );
   }
 
-  goToEmployeeList(){
+  goToEmployeeList() {
     this.router.navigate([this.routeEmployeesList])
   }
 
